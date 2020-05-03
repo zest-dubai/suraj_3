@@ -1,0 +1,58 @@
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+  }
+  body
+  {
+    align-content: center;
+  }
+  
+  .demo-image-preview > img {
+    width: 1280px;
+    height: 720px;
+  }
+  
+  @media(max-width:768px){
+    .demo-image-preview > img {
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+  
+  /* fullscreen enable by props */
+  .demo-image-preview-fullscreen > img {
+    width: 1280px;
+    height:720px;
+    border-radius: 240px;
+  }
+
+  .videoId {
+    min-width: 200px;
+    background-color: black;
+    margin-top: 100px;
+  }
+
+  .react-html5-camera-photo{
+      background-color: rgb(27, 25, 25);
+      margin: 20px atuo;
+      max-width: 2160px;
+      max-height: 1280px;
+  }
+  .react-html5-camera-photo>video{
+    width: 90%;
+    margin-top: 100px;
+    height: 720px;
+    width: 720px;
+    border-radius: 360px;
+  }
+  .react-html5-camera-photo-fullscreen > video {
+    object-fit: contain;
+    height: 720px;
+    width: 720px;
+    border-radius: 3600px;
+  }
+  .p
+  {
+    color: green;
+    padding: 10px 10px 30px 60px;
+  }

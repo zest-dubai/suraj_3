@@ -1,0 +1,45 @@
+.demo-image-preview {
+    position: relative;
+    text-align: center;
+    width: 720px;
+    height: 480px;
+  }
+  
+  .demo-image-preview > img {
+    width: 720px;
+    height: 480px;
+  }
+  @media(max-width:2160px){
+    .demo-image-preview > img {
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+  
+  /* fullscreen enable by props */
+  .demo-image-preview-fullscreen > img {
+    width: 100vw;
+    height:100vh;
+  }
+
+  .videoId {
+    min-width: 200px;
+    
+    background-color: black;
+    margin-top: 100px;
+  }
+  .react-html5-camera-photo{
+      background-color: rgb(27, 25, 25);
+      margin: 20px atuo;
+      max-width: 640px;
+      max-height: 720px;
+  }
+  .react-html5-camera-photo>video{
+    width: 90%;
+    margin-top: 100px;
+    max-height: 720px;
+    max-width: 640px;
+  }
+  .react-html5-camera-photo-fullscreen > video {
+    object-fit: contain;
+  }
